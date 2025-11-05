@@ -16,7 +16,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://calendly.com/mikeshobes718-9-dx/20-min-cost-reliability-scan"
+  to = "https://calendly.com/mikeshobes718-9-dx"
   status = 301
   force = true
   conditions = { Host = ["book.uptimeandspend.com"] }

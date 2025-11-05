@@ -1,0 +1,22 @@
+# Netlify redirects for uptimeandspend.com
+
+[[redirects]]
+  from = "/*"
+  to = "https://www.uptimeandspend.com/:splat"
+  status = 301
+  force = true
+  conditions = { Host = ["uptimeandspend.com"] }
+
+[[redirects]]
+  from = "/*"
+  to = "https://uptimeandspend.carrd.co/:splat"
+  status = 301
+  force = true
+  conditions = { Host = ["www.uptimeandspend.com"] }
+
+[[redirects]]
+  from = "/*"
+  to = "https://calendly.com/mikeshobes718-9-dx/20-min-cost-reliability-scan"
+  status = 301
+  force = true
+  conditions = { Host = ["book.uptimeandspend.com"] }
